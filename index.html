@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style type="text/css">
+
+        /*HEADER Calling*/
+        header{
+            /*Adjusting the data:Inline*/
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 20px;
+            
+            font-size: 18px;
+            font-family: Arial;
+
+            color: black;
+            padding: 5px;
+        }
+
+        .brand-title{
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        #data span{
+            margin-right: 14px;
+            margin-top: 25px;
+            color: gray;
+            font-size: 16px;
+        }
+
+        div .category{
+            border: 1px solid rgb(210, 210, 239);
+            border-radius: 10px;
+        }
+        /*FOOTER Calling*/
+        footer{
+            margin: 100px;
+            padding: 10px;
+            padding-bottom: 40px;
+            font-family: Arial;
+
+            /* Arranging the columns through grid style */
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+        }
+        .footer-brand-name{
+            font-size: 30px;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 15px;
+        }
+        aside span{
+            color: gray;
+            padding: 3px;
+        }
+        .data~span{
+            color: gray;
+            font-size: 13px;
+            padding-top: 5px;
+
+            /* arranging display nature */
+            display: block;
+        }
+        .data{
+            font-size: 15px;
+            font-weight: bold;
+            padding-bottom: 13px;
+        }
+
+
+    </style>
+  </head>
+  <body>
+
+    <!--HEADER Part-->
+    <header>
+
+        <div class="brand-title">
+            <span>Eduport</span>
+        </div>
+
+        <div id="data">
+                <span>Demos</span>
+                <span>Pages</span>
+                <span>Accounts</span>
+                <span>Megamenu</span>
+                <span>...</span>    
+        </div>
+
+        <div>
+            <input type="search" placeholder="Search" class="form-control">
+        </div>
+
+    </header>
+
+
+    <section>
+        <nav>
+            <img src="./public/images/img1.png" alt="">
+        </nav>
+        <nav>
+            <div class="d-flex gap-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/08.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">All level</span>
+                        <span class="bi bi-heart"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Sketch from A to Z: for app designer</h4>
+                        <p>Proposal indulged no do sociable he throwing settling.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 12h 56m</span>
+                        <span class="bi bi-table"> 15 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/02.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">Beginner</span>
+                        <span class="bi bi-heart-fill text-danger"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Graphic Design Masterclass</h4>
+                        <p>Rooms oh fully taken by worse do Points afraid but may end Rooms</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 9h 56m</span>
+                        <span class="bi bi-table"> 65 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/03.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">Beginner</span>
+                        <span class="bi bi-heart"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Create a Design System in Figma</h4>
+                        <p>Rooms oh fully taken by worse do. Points afraid but may end afraid</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 5h 56m</span>
+                        <span class="bi bi-table"> 32 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/07.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">Beginner</span>
+                        <span class="bi bi-heart-fill text-danger"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Deep Learning with React-Native</h4>
+                        <p>Far advanced settling say finished raillery. Offered chiefly farther</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 18h 56m</span>
+                        <span class="bi bi-table"> 99 lectures</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-4 mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/11.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">All level</span>
+                        <span class="bi bi-heart-fill text-danger"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Build Responsive Websites with HTML</h4>
+                        <p>Far advanced settling say finished raillery. Offered chiefly farther</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 15h 30m</span>
+                        <span class="bi bi-table"> 68 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/12.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">Beginner</span>
+                        <span class="bi bi-heart"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Build Websites with CSS</h4>
+                        <p>Far advanced settling say finished raillery. Offered chiefly farther</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 36h 56m</span>
+                        <span class="bi bi-table"> 72 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/04.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">All level</span>
+                        <span class="bi bi-heart-fill text-danger"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>Learn Invision</h4>
+                        <p>Arrived off she elderly beloved him Course regard to up he hardly.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 6h 56m</span>
+                        <span class="bi bi-table"> 82 lectures</span>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://eduport.webestica.com/assets/images/courses/4by3/09.jpg" class="card-img-top" alt="...">
+                    <div class="card-header d-flex justify-content-between" style="font-size: 12px;">
+                        <span class="border border-1 rounded-1 p-1">All level</span>
+                        <span class="bi bi-heart"></span>
+                    </div>
+                    <div class="card-body">
+                        <h4>JavaScript: Full Understanding</h4>
+                        <p>Far advanced settling say finished raillery. Offered chiefly farther.</p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between">
+                        <span class="bi bi-clock"> 35h 56m</span>
+                        <span class="bi bi-table"> 89 lectures</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav>
+          <img src="./public/images/img2.png" alt="">
+        </nav>
+    </section>
+
+
+    <!--FOOTER Part-->
+    <footer>
+
+        <div>
+            <div class="footer-brand-name">Eduport</div>
+            <aside>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-twitter-x"></span>
+                <span class="bi bi-linkedin"></span>
+            </aside>
+        </div>
+
+        <div>
+            <div class="data">Company</div>
+            <span>About Us</span>
+            <span>Contact Us</span>
+            <span>News</span>
+            <span>Library</span>
+            <span>Careers</span>
+        </div>
+
+        <div>
+            <div class="data">Community</div>
+            <span>Documentation</span>
+            <span>Faq</span>
+            <span>Forum</span>
+            <span>Sitemap</span>
+        </div>
+
+        <div>
+            <div class="data">Teaching</div>
+            <span>Become a teacher</span>
+            <span>guide</span>
+            <span>Terms & Conditions</span>
+        </div>
+
+        <div>
+            <div class="data">CONTACT</div>
+            <span>1-202-67645-743</span>
+            <span>example@gmail.com</span>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
